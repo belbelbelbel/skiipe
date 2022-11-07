@@ -1,0 +1,274 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 60px;
+  background-color: #e3e3e3;
+  cursor: pointer;
+  box-shadow: 0 0 1em grey;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 1em transparent;
+}
+
+.navbar li {
+  list-style: none;
+  padding: 0rem 2rem;
+  position: relative;
+}
+.navbar li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+  transition: 1.5s ease;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  color: darkcyan;
+  bottom: -4px;
+  color: darkcyan;
+  right: 2rem;
+  content: "";
+  width: 30%;
+  height: 0.09;
+}
+.img1 {
+  width: 8rem;
+  background-size: cover;
+  box-shadow: 0 0 0.8em grey;
+}
+.img2 {
+  width: 2rem;
+  background-size: cover;
+  background-position: center;
+}
+.navbar li a:hover::after {
+  bottom: -4px;
+  background-color: darkcyan;
+  left: 2rem;
+  position: absolute;
+  content: "";
+  width: 30%;
+  height: 0.09rem;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3e3e3;
+  background-size: cover;
+  padding: 0;
+  cursor: pointer;
+}
+.hero1 {
+  width: 45rem;
+  font-size: 1rem;
+  font-weight: 200;
+  padding: 0rem;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  color: #706c6c;
+  cursor: pointer;
+}
+button:hover {
+  background-color: darkcyan;
+  color: aquamarine;
+}
+
+
+.imgg {
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 1rem;
+  margin: 2rem;
+}
+.imgg:hover {
+  width: 17.6rem;
+  box-shadow: 0 0 1rem grey;
+}
+.hero h4 {
+  padding-bottom: 0;
+  font-size: larger;
+}
+
+.hero h1 {
+  color: darkcyan;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.section-p1 {
+  padding: 0rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.section-p1 .rick {
+  padding: 0.8rem;
+  box-shadow: 0 0 0.7rem grey;
+  width: fit-content;
+  margin: 2rem 0;
+  border-radius: 1rem;
+}
+
+.section-p1 .rick:hover {
+    box-shadow: 0 0 1rem grey;
+}
+
+.section-p1 .rick h6 {
+    font-size: large;
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+#secton-p1{
+    font-size: large;
+    background-color: #e3e3e3;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+.section-p1 .rick:nth-child(2) h6 {
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.section-p1 .rick:nth-child(3) h6 {
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: center;
+}
+.section-p1 .rick:nth-child(4) h6 {
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: center;
+}
+.section-p1 .rick:nth-child(5) h6 {
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: center;
+}
+
+.product h2{
+    font-size: 3rem;
+    margin: 2rem;
+    color: darkslategrey;
+    /* -webkit-box-reflect: below 0px linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.4)); */
+
+}
+.product {
+    text-align: center;
+    margin:  0 1.5rem;
+    border-radius: 2rem;
+}
+.product p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pro-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+.pro{
+    text-align: center;
+    box-shadow: 0 0 0.7rem grey;
+    width: fit-content;
+    padding: 0.8rem;
+    line-height: 1rem;
+    border-radius: 2rem;
+    margin: 2rem;
+}
+.pro img {
+    width:4rem;
+    border-radius: 1rem;
+}
+.pro .sms {
+    width: 17rem;
+    
+}
+.feeling .peace {
+    margin: -1.5rem;
+    color: darkolivegreen;
+    font-size: large;
+}
+.pro:hover{
+    box-shadow: 0 0 0.7rem black;
+}
+.pro .des {
+    text-align: start;
+    padding:  0.5rem;
+}
+.pro .des .span {
+    color: #706c6c;
+    font-size: 2rem;
+    margin-top: -2rem;
+}
+.ruin {
+    display: flex;
+    justify-content: space-between;
+
+}
+.img4 {
+    width: 3rem;
+    border: 0.2rem solid;
+    border-radius: 100%;
+}
+.feeling {
+    margin: 3rem;
+}
+
+.banner {
+    background-image: url(./assets/pexels-felix-mittermeier-956981.jpg);
+    height: 18rem;
+    color: white;
+    margin: 0rem 6rem;
+    background-size: cover;
+    background-position: center;
+}
+.banner .h2 {
+    line-height: 3rem;
+}
+.banner:hover {
+    box-shadow: 0 0 1rem black;
+}
+.banner .beef {
+    text-align: center;
+    align-items: center;
+    margin-top: rem;
+    padding: 4rem;
+    font-size: 1.5rem;
+    border-radius: rem;
+}
+.spat {
+    color: rgb(7, 194, 194);
+}
